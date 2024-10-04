@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <h2>{{ message }}</h2>
+    <h3>Create New User</h3>
+    <form method="POST" action="/create_user">
+        <label for="new_username">New Username:</label>
+        <input type="text" id="new_username" name="new_username"><br><br>
+        <label for="new_password">New Password:</label>
+        <input type="password" id="new_password" name="new_password"><br><br>
+        <input type="submit" value="Create User">
+    </form>
+</body>
+</html>
